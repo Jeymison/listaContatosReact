@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Form = styled.form`
   display: flex;
@@ -37,4 +37,4 @@ export const Form = styled.form`
       background-color: #0077b6;
     }
   }
-`;
+`

@@ -1,11 +1,10 @@
-import { configureStore } from '@reduxjs/toolkit';
-import contatosReducer from './contatoSlice';
+import { configureStore } from '@reduxjs/toolkit'
+import contatosReducer from './contatoSlice'
 
 export const store = configureStore({
   reducer: {
-    contatos: contatosReducer,
-  },
-});
+    contatos: contatosReducer
+  }
+})
 
-export type RootState = ReturnType<typeof store.getState>;
-
+export type RootState = ReturnType<typeof store.getState>

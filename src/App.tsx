@@ -1,10 +1,10 @@
 // App.tsx
-import React from 'react';
-import AdicionarContato from './components/AdicionarContato';
-import ListaContatos from './components/ListaDeContatos';
-import { Provider } from 'react-redux';
-import { store } from './redux/store';
-import { Title } from './styles';
+import React from 'react'
+import AdicionarContato from './components/AdicionarContato'
+import ListaContatos from './components/ListaDeContatos'
+import { Provider } from 'react-redux'
+import { store } from './redux/store'
+import { Title } from './styles'
 
 const App: React.FC = () => {
   return (
@@ -13,8 +13,7 @@ const App: React.FC = () => {
       <AdicionarContato contatos={[]} />
       <ListaContatos />
     </Provider>
-  );
-};
+  )
+}
 
-export default App;
-
+export default App

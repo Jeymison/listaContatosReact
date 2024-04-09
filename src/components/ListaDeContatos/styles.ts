@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
   max-width: 800px;
@@ -13,4 +13,4 @@ export const Container = styled.div`
     color: #333;
     text-align: center;
   }
-`;
+`

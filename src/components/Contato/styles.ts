@@ -1,12 +1,10 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
   max-width: 300px;
   margin: 0 auto;
   padding: 10px;
   border-radius: 8px;
-
-
 
   div {
     display: flex;
@@ -40,15 +38,14 @@ export const Container = styled.div`
       }
     }
   }
-`;
+`
 
 export const ButtonEditar = styled.button`
   background-color: #2196f3;
   color: #fff;
-`;
+`
 
 export const ButtonRemover = styled.button`
   background-color: #f44336;
   color: #fff;
-`;
-
+`

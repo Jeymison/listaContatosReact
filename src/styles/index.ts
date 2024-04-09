@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from 'styled-components'
 
 const EstiloGlobal = createGlobalStyle`
 * {
@@ -17,6 +17,6 @@ export const Container = styled.div`
 export const Title = styled.h1`
   font-size: 32px;
   text-align: center;
-`;
+`
 
 export default EstiloGlobal
